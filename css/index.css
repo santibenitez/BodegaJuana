@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+
+html{
+  font-size: 16px;
+}
+
+body{
+  background-color: #C5E1A5;
+}
+
+header{
+  height: 8vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+
+h1{
+  font-size: 2.5rem;
+  color: #FBFCFC;
+  font-family: 'Passions Conflict', cursive;
+  text-shadow: 2px 2px 4px #17202A;
+  margin-left: 2vw;
+}
+
+.guia{
+  width: 70vw;
+  margin-right: 2vw;
+}
+
+.guia ul{
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'PT Serif', serif;
+}
+
+.botonguia{
+  height: 100%;
+  width: auto;
+  padding: 10px;
+  margin-left: 0;
+  text-decoration: none;
+  transition: 0.4s;
+  font-family: 'PT Serif', serif;
+  font-size: 1rem;
+  color: #FBFCFC;
+}
+
+.botonguia:hover{
+  transform: scale(1.2);
+  background-color: #FBFCFC;
+  color: #9E9D24;
+}
+
+.banner{
+  background-image: url("../imagenes/banner.jpg");
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.75;
+}
+
+.banner h2{
+  font-family: 'Passions Conflict', cursive;
+  color: #FBFCFC;
+  font-size: 8rem;
+  text-align:  center;
+  text-shadow: 2px 2px 4px #17202A;
+  transition: 2s;
+}
+
+h2:hover{
+  transform: scale(1.5);
+}
+
+
+.banner h4{
+  font-family: 'PT Serif', serif;
+  color: #FBFCFC;
+  font-size: 1.5rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px #17202A;
+}
+
+.nosotros0{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nosotros{
+  width: 40%;
+  height: 100vh;
+  float: left;
+  background-image: url("../imagenes/uvas.jpg");
+  background-size: cover;
+}
+
+.nosotros h3{
+  font-family: 'Passions Conflict', cursive;
+  font-size: 8rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px #17202A;
+  color: #FBFCFC;
+}
+
+.nosotros1{
+  width: 50%;
+  height: 100vh;
+  float: right;
+  margin: 2%;
+}
+
+.nosotros1 p{
+  color: #9E9D24;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'PT Serif', serif;
+}
+
+.fotos{
+  width: 100vw;
+  height: 15vh;
+}
+
+.fotos h3{
+  font-family: 'Passions Conflict', cursive;
+  font-size: 6rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px #17202A;
+  color: #FBFCFC;
+}
+
+.carousel-inner{
+  height: 85vh;
+  width: 85vw;
+  margin-left: 7%;
+}
+
+.experiencia0{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.experiencia{
+  width: 40vh;
+  height: 100vh;
+  float: right;
+  background-image: url("../imagenes/copas1.jpg");
+  background-size: cover;
+}
+
+.experiencia h3{
+  font-family: 'Passions Conflict', cursive;
+  font-size: 8rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px #17202A;
+  color: #FBFCFC;
+}
+
+.experiencia1{
+  width: 50vw;
+  height: 100vh;
+  float: left;
+  margin: 2%;
+  color: #9E9D24;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'PT Serif', serif;
+}
+
+.experiencia1 ul{
+  text-align: left;
+  display: inline-block;
+}
+
+.vinos{
+  width: 100vw;
+  height: 15vh;
+}
+
+.vinos h3{
+  font-family: 'Passions Conflict', cursive;
+  font-size: 6rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px #17202A;
+  color: #FBFCFC;
+}
+
+.card-img-top{
+  max-height: 75vh;
+}
+
+.contactanos{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contactanos1{
+  width: 50vw;
+  height: 100vh;
+  float: right;
+  background-image: url("../imagenes/servir.jpg");
+  background-size: cover;
+}
+
+.contactanos1 h3{
+  font-family: 'Passions Conflict', cursive;
+  font-size: 8rem;
+  text-align: center;
+  text-shadow: 2px 2px 4px #17202A;
+  color: #FBFCFC;
+}
+
+.formulario {
+   width: 40vw;
+   height: 100vh;
+   padding: 2px;
+   border-radius: 10px;
+   float: left;
+   margin-left: 10px;
+   font-family: 'PT Serif', serif;
+   color: #9E9D24;
+}
+
+.btn{
+    margin-top: 20px;
+    background-color: white;
+    font-family: 'PT Serif', serif;
+    color: #9E9D24;
+    padding: 2px;
+    border-radius: 10%
+    transition: 1s;
+}
+
+.btn:hover{
+  color: white;
+}
+
+button {
+    width: 40%;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+
+footer{
+ display: flex;
+ flex-flow: row wrap;
+ background-color: #DCEDC8;
+ height: 50vh;
+ width: 100%;
+}
+
+.ubicacion{
+  float: left;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes_sociales2{
+  width: 30vw;
+  margin-right: 3vw;
+}
+
+.redes_sociales2 ul{
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logos_redes{
+  height: 5vh;
+  width: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  background-color: #ECF0F1;
+  border-radius: 50%;
+  transition: 0.4s;
+}
+
+.logos_redes:hover{
+  transform: scale(1.2);
+  background-color: #707B7C
+}
+
+.desarrollador{
+  float: right;
+  width: 30vw;
+  font-family: 'PT Serif', serif;
+  font-size: 1rem;
+  color: #9E9D24;
+  text-align: justify;
+}
+
+.logo_whatsapp{
+  background-color: #A9DFBF;
+  border: 1px solid white;
+  z-index: 999;
+  border-radius: 50%;
+  padding: 15px;
+  bottom: 15px;
+  right: 10px;
+  position: fixed;
+  transition: 0.3s;
+}
+
+.boton_whatsapp{
+  width: 4vw;
+}
+
+.logo_whatsapp:hover{
+  background-color: black;
+}
+
+@media (max-width: 62rem) {
+  html{
+    font-size: 12px;
+  }
+  .nosotros0{
+    flex-flow: column wrap;
+  }
+  .nosotros{
+    width: 100vw;
+  }
+  .nosotros1{
+    width: 100vw;
+    text-align: center;
+  }
+  .experiencia0{
+    flex-flow: column wrap;
+  }
+  .experiencia{
+    width: 100vw;
+  }
+  .experiencia1{
+    width: 100vw;
+  }
+  .contactanos{
+    flex-flow: column wrap;
+  }
+  .contactanos1{
+    width: 100vw;
+  }
+  .formulario{
+    width: 100vw;
+  }
+  footer{
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+    text-align: justify;
+  }
+}
