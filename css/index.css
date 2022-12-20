@@ -155,9 +155,9 @@ h2:hover{
 }
 
 .experiencia{
-  width: 40vh;
+  width: 40%auto;
   height: 100vh;
-  float: right;
+  float: left;
   background-image: url("../imagenes/copas1.jpg");
   background-size: cover;
 }
@@ -171,19 +171,24 @@ h2:hover{
 }
 
 .experiencia1{
-  width: 50vw;
+  width: 50%;
   height: 100vh;
-  float: left;
+  float: right;
   margin: 2%;
-  color: #9E9D24;
-  text-align: center;
-  font-size: 1.5rem;
-  font-family: 'PT Serif', serif;
 }
 
 .experiencia1 ul{
   text-align: left;
   display: inline-block;
+  color: #9E9D24;
+  font-size: 1.5rem;
+  font-family: 'PT Serif', serif;
+}
+
+.experiencia1 p{
+  color: #9E9D24;
+  font-size: 1.5rem;
+  font-family: 'PT Serif', serif;
 }
 
 .vinos{
@@ -328,7 +333,7 @@ footer{
   background-color: black;
 }
 
-@media (max-width: 62rem) {
+@media (max-width: 1000px) {
   html{
     font-size: 12px;
   }
@@ -346,10 +351,10 @@ footer{
     flex-flow: column wrap;
   }
   .experiencia{
-    width: 100vw;
+    width: 100%;
   }
   .experiencia1{
-    width: 100vw;
+    width: 100%;
   }
   .contactanos{
     flex-flow: column wrap;
